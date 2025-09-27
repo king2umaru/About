@@ -1,0 +1,88 @@
+
+
+    /* Navbar overlay on hero */
+    .navbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 10;
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(4px);
+    }
+
+    /* Make navbar bigger on mobile */
+    @media (max-width: 768px) {
+      .navbar {
+        padding: 1rem; /* more space inside navbar */
+      }
+
+      .navbar-brand {
+        font-size: 1.8rem;   /* bigger brand text */
+        font-weight: 700;
+      }
+
+      .navbar-toggler {
+        font-size: 2rem;     /* larger burger icon */
+        padding: 12px 16px;
+      }
+
+      .navbar-nav .nav-link {
+        font-size: 1.4rem;   /* larger link text */
+        padding: 14px;
+      }
+
+
+.hero {
+  background: url("top-image.jpg") no-repeat center top;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+/* On desktops (min width 992px) adjust image down */
+@media (min-width: 992px) {
+  .hero {
+    background-position: center 30%; /* moves image down */
+  }
+.display-3{
+  font-family: 'Montserrat', sans-serif;
+   font-weight: 700; /* Bold */
+}
+.title{
+  padding: 100px;
+}
+.fashion-title{
+  padding-left: 200px;
+}
+.portrait-title{
+  padding-left: 450px;
+}
+.container-two{
+  padding:50px;
+}
+.conatiner-three{
+  padding-top: 100px;
+  padding-left: 450px;
+}
+
+
+
+
+}
+.menu {
+  margin-top: 100px;
+}
+.menu a {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+  color: #555;
+  text-decoration: none;
+}
+.menu a:hover {
+  color: #000;
+}
+.container-four{
+  padding:300px;
+}
